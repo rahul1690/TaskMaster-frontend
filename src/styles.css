@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'poppins';
+    src: url('./assets/fonts/Poppins-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box;
+}
+
+.background-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: background-image 1s ease;
+}
+.background1{
+    background-image: url('./assets/index_bg/bg_2.jpg');
+}
+
+.background2{
+    background-image: url('./assets/index_bg/bg_1.jpg');
+}
